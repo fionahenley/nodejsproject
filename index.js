@@ -62,7 +62,7 @@ inquirer.prompt([
 function writeToFile(fileName, data) {
     console.log(response)
     fs.writeFile ('package.json' , JSON.stringify(response), err => (err)) 
-    } catch (err) {
+    } error();(err) => {
         console.error(err)
     }
 
